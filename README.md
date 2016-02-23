@@ -1,1 +1,3 @@
-# Lab 8 Third party APIs
+# lab8
+
+Lab 8: Third party APIs
