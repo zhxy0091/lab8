@@ -1,3 +1,3 @@
 # lab8
 
-Lab 8: Third party APIs
+Lab8: Third-party APIs (Facebook Login, Google Maps, Camera)
