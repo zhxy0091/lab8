@@ -6,6 +6,7 @@ function initCamera() {
 }
 
 function capture(video, canvas, snapshotButton) {
+  //Adopted from https://dev.opera.com/articles/media-capture-in-mobile-browsers/
   //Setup navigator for all versions of browsers.
   navigator.getUserMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia ||
               navigator.mozGetUserMedia || navigator.msGetUserMedia;
