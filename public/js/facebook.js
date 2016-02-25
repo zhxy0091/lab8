@@ -20,5 +20,7 @@ function statusChangeCallback(response) {
 function changeUser(response) {
   $(".facebookLogin").hide();
   $("#name").text(response.name);
+  $("#photo").attr('src', response.picture.data.url);
   console.log(response.name);
+  console.log(response.picture.data.url);
 }
